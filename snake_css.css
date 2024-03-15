@@ -41,8 +41,8 @@ html,body {
       top: 50px;
       font-family: Courier;
       font-size: x-large;
-      margin-top: 35px;
-      border: none;
+      margin-top: 70px;
+      border-radius: 8px;
       color: white;
       padding: 16px 32px;
       text-align: center;
@@ -54,7 +54,7 @@ html,body {
       cursor: pointer;
     }
    #button:hover {
-      background-color: #04AA6D;
+      background-color: black;
       color: white;
       }
 
