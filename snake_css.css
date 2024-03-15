@@ -37,11 +37,11 @@ canvas {
 #button {
   color: #000000;
   position: absolute;
-  bottom: 20vh;
+  bottom: 5vh;
   width: 20vh;
   font-family: Courier;
   font-size: x-large;
-  margin-top: 70px;
+  margin-bottom: 70px;
   border-radius: 8px;
   border: solid;
   color: rgb(0, 0, 0);
