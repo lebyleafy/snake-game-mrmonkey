@@ -1,0 +1,43 @@
+html,body {
+      height: 100%;
+      margin: 0;
+    }
+
+    body {
+      background: #000000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    canvas {
+      border: 1px solid rgb(0, 255, 51);
+      background-color: #000000;
+    }
+
+    #p1 {
+      color: #CCC9DC;
+      position: absolute;
+      /* left: 100px; */
+      top: 10px;
+      font-family: Courier;
+      font-size: x-large;
+    }
+
+    #p2 {
+      color: #CCC9DC;
+      position: absolute;
+      /* left: 100px; */
+      top: 30px;
+      font-family: Courier;
+      font-size: x-large;
+      margin-top: 35px;
+    }
+
+    #score {
+      color: yellow;
+    }
+
+    #high {
+      color: #E43F5A;
+    }
