@@ -1,67 +1,67 @@
 html,body {
-      height: 100%;
-      margin: 0;
-    }
+  height: 100%;
+  margin: 0;
+}
 
-    body {
-      background: #000000;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
+body {
+  background: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-    canvas {
-      border: 1px solid rgb(0, 255, 51);
-      background-color: #000000;
-    }
+canvas {
+  border: 1px solid rgb(0, 255, 51);
+  background-color: #000000;
+}
 
-    #p1 {
-      color: #CCC9DC;
-      position: absolute;
-      /* left: 100px; */
-      top: 10px;
-      font-family: Courier;
-      font-size: x-large;
-    }
+#p1 {
+  color: #CCC9DC;
+  position: absolute;
+  /* left: 100px; */
+  top: 10px;
+  font-family: Courier;
+  font-size: x-large;
+}
 
-    #p2 {
-      color: #CCC9DC;
-      position: absolute;
-      /* left: 100px; */
-      top: 30px;
-      font-family: Courier;
-      font-size: x-large;
-      margin-top: 35px;
-    }
+#p2 {
+  color: #CCC9DC;
+  position: absolute;
+  /* left: 100px; */
+  top: 30px;
+  font-family: Courier;
+  font-size: x-large;
+  margin-top: 35px;
+}
 
-    #button {
-      color: #CCC9DC;
-      position: absolute;
-      /* left: 100px; */
-      top: 50px;
-      font-family: Courier;
-      font-size: x-large;
-      margin-top: 70px;
-      border-radius: 8px;
-      color: white;
-      padding: 16px 32px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 16px;
-      margin: 4px 2px;
-      transition-duration: 0.4s;
-      cursor: pointer;
-    }
-   #button:hover {
-      background-color: black;
-      color: white;
-      }
+#button {
+  color: #000000;
+  position: absolute;
+  bottom: 20vh;
+  width: 20vh;
+  font-family: Courier;
+  font-size: x-large;
+  margin-top: 70px;
+  border-radius: 8px;
+  border: solid;
+  color: rgb(0, 0, 0);
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+#button:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  }
 
-    #score {
-      color: yellow;
-    }
+#score {
+  color: yellow;
+}
 
-    #high {
-      color: #E43F5A;
-    }
+#high {
+  color: #E43F5A;
+}
